@@ -18,6 +18,8 @@ gem 'fog'
 gem 'bootstrap-sass'
 gem 'jquery-turbolinks'
 
+gem 'rails_12factor', group: :production
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
