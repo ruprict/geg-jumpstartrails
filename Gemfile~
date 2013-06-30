@@ -16,6 +16,7 @@ gem 'rmagick'
 gem 'fog'
 
 gem 'bootstrap-sass'
+gem 'jquery-turbolinks'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
