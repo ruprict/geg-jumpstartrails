@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
-gem 'activeadmin', github: 'RubySource/active_admin', branch: 'rails4' 
+gem 'devise', '3.0.0.rc'
+gem 'activeadmin', github: 'gregbell/active_admin', branch: 'rails4' 
 gem 'ransack', github: 'RubySource/ransack', branch: 'rails-4'
 gem 'protected_attributes'
 
@@ -36,7 +36,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '~> 2.3.0'
+gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
