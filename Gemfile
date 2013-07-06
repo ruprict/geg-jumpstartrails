@@ -3,9 +3,12 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-gem 'devise', '3.0.0.rc'
-gem 'activeadmin', github: 'gregbell/active_admin', branch: 'rails4' 
-gem 'ransack', github: 'RubySource/ransack', branch: 'rails-4'
+
+
+gem 'activeadmin',         github: 'gregbell/active_admin', branch: 'rails4'
+gem 'ransack',             github: 'ernie/ransack',         branch: 'rails-4'
+gem 'inherited_resources', github: 'josevalim/inherited_resources'
+gem 'formtastic',          github: 'justinfrench/formtastic'
 gem 'protected_attributes'
 
 gem 'friendly_id', github: 'FriendlyId/friendly_id', branch: 'rails4'
@@ -24,13 +27,13 @@ gem 'rails_12factor', group: :production
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby, group: :development
