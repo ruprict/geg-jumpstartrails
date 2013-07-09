@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/RubySource/active_admin.git
-  revision: d9c593b13a6fadcf0eb8d5bcd14fc1a157954e93
+  revision: d30e9e06614ca23f95b3cedce062e595569a42fd
   branch: rails4
   specs:
     activeadmin (0.6.0)
